@@ -1,0 +1,65 @@
+# PHP Portfolio Website - Git Ignore File
+
+# Sensitive Configuration Files
+config/database.php
+
+# Environment Files
+.env
+.env.local
+.env.production
+
+# Upload Directory (keep structure, ignore content)
+uploads/*
+!uploads/.gitkeep
+
+# Log Files
+*.log
+logs/
+error_log
+
+# Cache Files
+cache/
+tmp/
+temp/
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup Files
+*.bak
+*.backup
+*.sql.backup
+
+# Composer (if used)
+vendor/
+composer.lock
+
+# Node Modules (if using build tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build Output
+dist/
+build/
+
+# Session Files
+sessions/
+
+# Temporary Files
+*.tmp
+*.temp
